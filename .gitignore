@@ -1,0 +1,94 @@
+# ============================================
+# PYTHON
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ============================================
+# VIRTUAL ENVIRONMENTS
+# ============================================
+.venv/
+venv/
+venv-1/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ============================================
+# GESTURE DATASET (do not commit images!)
+# ============================================
+gesture_data/
+!gesture_data/.gitkeep
+
+# ============================================
+# TRAINED MODELS & EXPORTS
+# ============================================
+*.task
+*.tflite
+*.h5
+*.pb
+*.onnx
+*.pt
+*.pth
+*.ckpt
+exported_model/
+checkpoints/
+logs/
+
+# ============================================
+# JUPYTER
+# ============================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================
+# MACOS
+# ============================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ============================================
+# IDE
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============================================
+# ENVIRONMENT / SECRETS
+# ============================================
+.env
+.env.local
+*.key
+*.pem
+
+# ============================================
+# MISC
+# ============================================
+*.log
+.DS_Store
+Thumbs.db
