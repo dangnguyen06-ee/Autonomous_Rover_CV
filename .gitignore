@@ -92,3 +92,22 @@ logs/
 *.log
 .DS_Store
 Thumbs.db
+# ============================================
+# DVC
+# ============================================
+# DVC stores data in Google Drive; only pointer files go in Git
+# The following are managed by DVC automatically, but listing them is safe:
+.dvc/tmp/
+.dvc/cache/
+.dvc/config.local
+
+# DVC-tracked data folders (DVC adds this automatically, but belt-and-suspenders)
+gesture_data/
+
+# ============================================
+# CREDENTIALS (NEVER COMMIT THESE)
+# ============================================
+gdrive-credentials.json
+*-credentials.json
+secrets/
+.env

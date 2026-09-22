@@ -1,0 +1,6 @@
+outs:
+- md5: 42f4ec730f1c84d3735da5e1adb9f4ef.dir
+  size: 8196
+  nfiles: 1
+  hash: md5
+  path: gesture_data
