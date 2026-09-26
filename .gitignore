@@ -107,7 +107,7 @@ gesture_data/
 # ============================================
 # CREDENTIALS (NEVER COMMIT THESE)
 # ============================================
-gdrive-credentials.json
-*-credentials.json
+gdrive-credential*.json
+*-credential*.json
 secrets/
 .env
