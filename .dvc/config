@@ -3,3 +3,4 @@
 ['remote "gdrive-storage"']
     url = gdrive://11OR2_kwbrGDbPDRX0CmM5qKf72ein5g2
     gdrive_use_service_account = true
+    gdrive_service_account_json_file_path = /Users/nguyenminhdang/Documents/Autonomous_Rover_CV/gdrive-credential.json
